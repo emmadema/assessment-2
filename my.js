@@ -1,25 +1,26 @@
 
 //load in jQuery
-$(document).ready(function(){
+$(document).ready(function() {
 	console.log('ready');
 
+//a keycode
+	$('.luigi').keyup(function(e) {
+		if (e.keyCode == 65)
+		console.log("luigi clicked");
+		//$(this).animate({'left': '+=20px'});
+	});
+
+//l keycode
+	$('.mario').keyup(function(e) {
+		if(e.keyCode == 76) 
+			console.log("mario");
+			//$(this).animate({'left': '+=20px'});
+		
+	});
 
 
 });
 
-$('.luigi').on("click", function() {
-	console.log("luigi clicked");
-	$(this).animate({'left': '+=20px'});
-});
-
-$('.mario').keypress(function(e) {
-	//var key = e.keyCode;
-	//if (e.keyCode === 65){
-		if (e.which === 37) {
-		console.log("mario clicked");
-	//$(this).animate({'left': '+=20px'});
-		}
-});
 
 //make mario head move on click
 //select mario head
