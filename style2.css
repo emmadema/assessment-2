@@ -1,3 +1,37 @@
-.backgroundImage{
-	width: 100%;
+
+
+body, html {
+	height: 100%;
+
+}
+.background{
+	background-image: url('https://tcrf.net/images/3/36/Smk_title_bg_jp.png');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+.mario{
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/41kSK5LAiqL.jpg');
+	background-position: center;
+	position: relative;
+	margin: 20px;
+	padding: 120px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	
+}
+
+.luigi{
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/51p9jhCA-gL._UX385_.jpg');
+	background-position: center;
+	position: relative;
+	margin: 20px;
+	padding: 120px;
+	display: inline-block;
+	float: left;
+	clear: both;
+
 }
