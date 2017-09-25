@@ -1,74 +1,157 @@
 /*https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjX9oPqn77WAhXLhVQKHUE4AdEQjRwIBw&url=http%3A%2F%2Fnintendo.wikia.com%2Fwiki%2FFile%3ASuper_Mario_Kart_(Title_Screen).png&psig=AFQjCNGbmXd7iLx4n7GbNzr7YRMedZ3Sbw&ust=1506356530942038
 Copying this lading page ^^^*/
 
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+/*---------Ipad------------*/
 
 body, html {
-	height: 100%;
+		height: 100%;
 
-}
+	}
 
-/*creates background image and moves it behind other elements*/
-.backgroundImage{
-	background-image: url('https://tcrf.net/images/3/36/Smk_title_bg_jp.png');
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+	/*creates background image and moves it behind other elements*/
+	.backgroundImage{
+		background-image: url('https://tcrf.net/images/3/36/Smk_title_bg_jp.png');
+		width: 100%;
+		height: 1300px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-.header{
-	position: relative;
-	margin: auto;
-	padding: 120px;
-	display: block;
-	text-align: center;
+	/*adjusted the padding to lower the heading on the page*/
+	.header{
+		position: relative;
+		margin: auto;
+		padding: 200px;
+		display: block;
+		text-align: center;
 	
+	}
+
+	.button{
+		position: relative;
+		margin: 0 auto;
+		padding: 20px;
+		display: block;
+		background-color: none;
+		font-family: 'Bangers', cursive;
+		opacity: 0.9;
+		border-radius: 10px;
+		color: white;
+		font-style: none;
+		font-size: 24px;
+	}
+
+	/*adjusted the margin to move to grass area and move between footer and start game button*/
+	.mario{
+		background-image: url('http://www.free-icons-download.net/images/super-mario-icons-34514.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		margin: 200px 20px 20px 20px;
+		padding: 120px;
+		display: inline-block;
+		float: left;
+		clear: both;
+	}
+
+	/*adjusted the margin to move to grass area and move between footer and start game button*/
+	.luigi{
+		background-image: url('https://www.spriters-resource.com/resources/sheet_icons/51/53665.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		margin: 200px 20px 20px 20px;
+		padding: 120px;
+		display: inline-block;
+		float: right;
+
+	}
+	
+	/*adjusted margin to display at bottom of screen under all other divs
+	added larger font to increase readbility*/
+	.footer{
+		position: relative;
+		margin: 500px 20px 20px 20px;
+		text-align: center;
+		display: block;
+		font-size: 24px;
+	}
 }
 
-.button{
-	position: relative;
-	margin: 0 auto;
-	padding: 20px;
-	display: block;
-	background-color: none;
-	font-family: 'Bangers', cursive;
-	opacity: 0.9;
-	border-radius: 10px;
-	color: white;
-	font-style: none;
-	font-size: 24px;
-}
+@media (min-device-width: 1025px){
+/*---------Computer---------*/
+	body, html {
+		height: 100%;
 
-.mario{
-	background-image: url('http://www.free-icons-download.net/images/super-mario-icons-34514.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	margin: 20px;
-	padding: 120px;
-	display: inline-block;
-	float: left;
-	clear: both;
-}
+	}
 
-.luigi{
-	background-image: url('https://www.spriters-resource.com/resources/sheet_icons/51/53665.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	margin: 20px;
-	padding: 120px;
-	display: inline-block;
-	float: right;
+	/*creates background image and moves it behind other elements*/
+	.backgroundImage{
+		background-image: url('https://tcrf.net/images/3/36/Smk_title_bg_jp.png');
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-}
+	.header{
+		position: relative;
+		margin: auto;
+		padding: 120px;
+		display: block;
+		text-align: center;
+	
+	}
 
-.footer{
-	position: relative;
-	margin: 350px;
+	.button{
+		position: relative;
+		margin: 0 auto;
+		padding: 20px;
+		display: block;
+		background-color: none;
+		font-family: 'Bangers', cursive;
+		opacity: 0.9;
+		border-radius: 10px;
+		color: white;
+		font-style: none;
+		font-size: 24px;
+	}
+
+	.mario{
+		background-image: url('http://www.free-icons-download.net/images/super-mario-icons-34514.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		margin: 20px;
+		padding: 120px;
+		display: inline-block;
+		float: left;
+		clear: both;
+	}
+
+	.luigi{
+		background-image: url('https://www.spriters-resource.com/resources/sheet_icons/51/53665.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		margin: 20px;
+		padding: 120px;
+		display: inline-block;
+		float: right;
+
+	}
+
+	.footer{
+		position: relative;
+			margin: 350px;
 	text-align: center;
-	display: block;
+		display: block;
+	}
 }
