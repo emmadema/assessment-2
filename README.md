@@ -26,25 +26,25 @@ You will be working individually for this assignment, but we'll be guiding you a
 
 - Choose an existing landing page on the web; screen shot the landing page, and replicate its design to create a separate game landing page that links to your game\* -Done link in CSS
 
-- Style your landing page and game page with class-based CSS
+- Style your landing page and game page with class-based CSS - Done
 
 - Include a media query for a tablet to make your pages responsive
 
-- Your game page must have at least two player objects
+- Your game page must have at least two player objects - Done
 
 - Your game must have a clear win condition
 
-- Comment your code appropriately
+- Comment your code appropriately - done
 
-- Adhere to the [AirBnB style guide](https://github.com/airbnb/javascript/tree/es5-deprecated/es5) for writing your JavaScript
+- Adhere to the [AirBnB style guide](https://github.com/airbnb/javascript/tree/es5-deprecated/es5) for writing your JavaScript -Done
 
-- Adhere to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing your HTML/CSS
+- Adhere to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing your HTML/CSS - done
 
 \* This does NOT mean copy-and-paste, you must work from the screen shot, not the code.
 
 **Bonus:**
 
-- Use images to create a background and/or players
+- Use images to create a background and/or players d0nr
 
 - Score each game based on the time it took to complete and by how much time they beat the opposing player
 

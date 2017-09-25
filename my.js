@@ -45,16 +45,16 @@ $(document).ready(function() {
 
  	$(function() {
 
- 		if (positionM === 1000) {
+ 		if (positionM.on() === 500 + 'px') {
  			alert('Mario wins!');
 
- 		} else if (positionL === 1000) { 
+ 		} else if (positionL.on() === 500 + 'px') { 
  			alert('Luigi wins!');
 
  		}
 
  	});
- 	
+
  });
 
 
