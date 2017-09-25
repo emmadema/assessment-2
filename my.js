@@ -42,24 +42,33 @@ $(document).ready(function() {
  			break;
  			//mario works the same way as luigi but it moves with the L key
  		}
+
+ 	$(function() {
+
+ 		if (positionM === 1000) {
+ 			alert('Mario wins!');
+
+ 		} else if (positionL === 1000) { 
+ 			alert('Luigi wins!');
+
+ 		}
+
+ 	});
+ 	
  });
+
+
+//var mario = $('.mario');
+//var luigi = $('.luigi');
+
 
 //win condition
 //when one div reaches 51 clicks that div wins
 // or when one div crosses anothe div that one wins
-var mario = $('.mario');
-var luigi = $('.luigi');
 
- function winner() {
- 	if (mario = '1000px'){
- 		alert('Mario wins!');
- 	} else if (luigi = '1000px'){ 
- 		alert('Luigi wins!');
- 	}
-
- }
 
 });
+
 
 // winner annouced after 51 clicks - how many clicks it takes to get to the end of the page
 // either div is touching the end annouce mario or luigi wins
