@@ -13,7 +13,7 @@ body, html {
 	}
 
 .mario{
-	background-image: url('https://images-na.ssl-images-amazon.com/images/I/41kSK5LAiqL.jpg');
+	background-image: url('http://www.free-icons-download.net/images/super-mario-icons-34514.png');
 	background-position: center;
 	position: relative;
 	margin: 20px;
@@ -25,8 +25,10 @@ body, html {
 }
 
 .luigi{
-	background-image: url('https://images-na.ssl-images-amazon.com/images/I/51p9jhCA-gL._UX385_.jpg');
+	background-image: url('https://www.spriters-resource.com/resources/sheet_icons/51/53665.png');
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
 	margin: 20px;
 	padding: 120px;
