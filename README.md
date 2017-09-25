@@ -24,15 +24,15 @@ You will be working individually for this assignment, but we'll be guiding you a
 
 - Include separate HTML, CSS, JavaScript files -Done
 
-- Choose an existing landing page on the web; screen shot the landing page, and replicate its design to create a separate game landing page that links to your game\* -Done link in CSS
+- Choose an existing landing page on the web; screen shot the landing page, and replicate its design to create a separate game landing page that links to your game\* -Done link in CSS -Done
 
 - Style your landing page and game page with class-based CSS - Done
 
-- Include a media query for a tablet to make your pages responsive
+- Include a media query for a tablet to make your pages responsive - done
 
 - Your game page must have at least two player objects - Done
 
-- Your game must have a clear win condition
+- Your game must have a clear win condition - in progress
 
 - Comment your code appropriately - done
 
@@ -40,11 +40,11 @@ You will be working individually for this assignment, but we'll be guiding you a
 
 - Adhere to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing your HTML/CSS - done
 
-\* This does NOT mean copy-and-paste, you must work from the screen shot, not the code.
+\* This does NOT mean copy-and-paste, you must work from the screen shot, not the code. - done
 
 **Bonus:**
 
-- Use images to create a background and/or players d0nr
+- Use images to create a background and/or players d0nr -done
 
 - Score each game based on the time it took to complete and by how much time they beat the opposing player
 
